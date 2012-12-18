@@ -1,0 +1,30 @@
+# dublin screenrc
+
+autodetach on         # autodetach on disconnect/close
+startup_message off   # disable intro msg
+defscrollback 8000    # default scrollback buffer
+vbell off             # enable visual bell
+
+#escape ``            # replace C- escape sequence
+#escape `e             # double-tap backtick toggles screen windows
+
+bindkey -k k; quit    # bind F10 to Screen's quit command
+
+# Window numbering starts at 1
+bind c screen 1
+bind 0 select 10
+
+# load some apps (last listed will be focused)
+#screen -t ncmpc    4  ncmpc
+#screen -t rtorrent 5  rtorrent
+#screen -t htop     10  htop
+screen -t shell    2
+screen -t shell    1
+
+defflow off           # disable flow control
+nethack on            # nethackish status messages
+altscreen on          # restore window contents after a vi session
+
+# show window list at bottom of screen, with time/date/current window
+hardstatus alwayslastline
+hardstatus string '%{gk}[%{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][ %m/%d %c ]%{W}'
