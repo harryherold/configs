@@ -2788,7 +2788,7 @@ zrclocal
 # Local variables:
 # mode: sh
 # End:
-. /etc/profile.d/modules.sh
+#. /etc/profile.d/modules.sh
  alias indent='indent -nut -nbad -bap -nbbo -nbc -br -bls -ce -ci2 -cli0 -cs -d0 -di2 -nfc1 -nfca -hnl -i2 -ip0 -l120 -lp -npcs -nprs -psl -saf -sai -saw -nsc -nsob -nss'
 
 
