@@ -1,0 +1,3 @@
+[submodule "ecb"]
+	path = sites/ecb/
+	url = https://github.com/alexott/ecb

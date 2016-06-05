@@ -1,10 +1,10 @@
-(require 'package) ;; You might already have this line
+(require 'package)
 (add-to-list 'package-archives
          '("melpa" . "http://melpa.org/packages/") t)
 (when (< emacs-major-version 24)
 ;; For important compatibility libraries like cl-lib
 (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-(package-initialize) ;; You might already have this line
+(package-initialize)
 
 ;; =============
 ;; irony-mode
@@ -32,7 +32,7 @@
 ;; trigger completion at interesting places, such as after scope operator
 ;;     std::|
 (add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
-(setq irony-additional-clang-options '("-std=c++11"))
+(setq irony-additional-clang-options '("-std=c++14"))
 ;; =============
 ;; flycheck-mode
 ;; =============
@@ -70,16 +70,83 @@
 (local-set-key (kbd "TAB") 'irony--indent-or-complete)
 (local-set-key [tab] 'irony--indent-or-complete))
 (add-hook 'c-mode-common-hook 'irony-mode-keys)
+
+;;=========
+;;ecb mode
+;;=========
+;; source on github
+;; https://github.com/alexott/ecb
+(add-to-list 'load-path "~/.emacs.d/sites/ecb")
+(require 'ecb)
+(semantic-mode 1)
+(global-semantic-idle-scheduler-mode 1)
+(setq ecb-layout-name "left9")
+
+;; smartparens
+(require 'smartparens-config)
+(show-smartparens-global-mode +1)
+(smartparens-global-mode 1)
+
+;; disable tool-bar
+(tool-bar-mode -1)
+
+;; line numbers
+(global-linum-mode t)
+
+;; backup files
+(setq make-backup-files nil)
+;; ==================
+;; global key setings
+;; ==================
+(fset 'yes-or-no-p 'y-or-n-p)
+
+
+(setq ecb-activated-layout 'nil)
+
+;; toggling ecb layouts
+;; TODO implement toggling
+(defun switch-to-func-layout()
+  (interactive)
+  (if (not ecb-activated-layout) (ecb-activate))
+  (setq ecb-activated-layout 'func)
+  (ecb-layout-switch "left9"))
+
+(defun switch-to-file-layout()
+  (interactive)
+  (if (not ecb-activated-layout) (ecb-activate))
+  (ecb-layout-switch "left13"))
+
+(defun switch-to-func-file-layout()
+  (interactive)
+  (if (not ecb-activated-layout) (ecb-activate))
+  (ecb-layout-switch "leftright3"))
+
+
+(global-set-key (kbd "<f5>")  'switch-to-func-layout)
+(global-set-key (kbd "<f6>")  'switch-to-file-layout)
+(global-set-key (kbd "<f7>")  'switch-to-func-file-layout)
+(global-set-key (kbd "<f8>")  'ecb-deactivate)
+
+(global-hl-line-mode 1)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (tango-dark)))
- '(inhibit-startup-screen t))
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(custom-enabled-themes (quote (wombat)))
+ '(ecb-options-version "2.40")
+ '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
+ '(ecb-tip-of-the-day nil)
+ '(ecb-vc-enable-support t)
+ '(ecb-windows-width 0.2)
+ '(inhibit-startup-screen t)
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:family "Ubuntu Mono" :foundry "DAMA" :slant normal :weight normal :height 131 :width normal)))))
