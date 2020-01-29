@@ -1,0 +1,67 @@
+{
+    // editor
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    // workbench
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#504b4b",
+    },
+    // window
+    "window.menuBarVisibility": "toggle",
+    // files
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Winter is Coming (Dark Black)",
+    "licenser.author": "Christian Herold",
+    "licenser.license": "BSD3",
+    "licenser.useSingleLineStyle": false,
+    "cSpell.userWords": [
+        "Neural",
+        "approach",
+        "buffers",
+        "entries",
+        "eventbuffer",
+        "eventbuffers",
+        "filtering",
+        "multithreading",
+        "occurrence",
+        "parallelization",
+        "regarding",
+        "thread"
+    ],
+    "editor.fontFamily": "'Hack'",
+    "cppcheck.standard": [
+        "c11",
+        "c++14",
+    ],
+    "cSpell.language": "de",
+    "terminal.integrated.rendererType": "dom",
+    "extensions.ignoreRecommendations": false,
+    "breadcrumbs.enabled": true,
+    "C_Cpp.autocomplete": "Disabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "git.ignoreLegacyWarning": true,
+    "files.exclude": {
+        "**/.ccls": true,
+        "**/.vscode": true,
+        "**/BUILD": true,
+        "**/build": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.activityBar.visible": false,
+    "[c]": {
+        "editor.defaultFormatter": "ccls-project.ccls"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false
+}
