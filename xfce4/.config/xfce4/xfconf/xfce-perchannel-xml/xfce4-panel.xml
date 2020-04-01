@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=960;y=13"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="size" type="uint" value="30"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-color" type="array">
+        <value type="uint" value="13516"/>
+        <value type="uint" value="12909"/>
+        <value type="uint" value="12909"/>
+        <value type="uint" value="65535"/>
+      </property>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
+        <value type="int" value="15"/>
+        <value type="int" value="3"/>
+        <value type="int" value="7"/>
+        <value type="int" value="9"/>
+        <value type="int" value="4"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="5"/>
+        <value type="int" value="10"/>
+        <value type="int" value="1"/>
+        <value type="int" value="11"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="94"/>
+      <property name="leave-opacity" type="uint" value="94"/>
+      <property name="background-image" type="string" value="/home/cherold/Pictures/1920x1080-229545025-4k-lock-screen-wallpapers.jpg"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.180392"/>
+        <value type="double" value="0.203922"/>
+        <value type="double" value="0.211765"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="FontName" type="string" value="DejaVuSans-Bold"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-5" type="string" value="clock">
+      <property name="timezone" type="string" value=""/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-format" type="string" value="%d.%m.%y - %R"/>
+    </property>
+    <property name="plugin-7" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="zeal"/>
+        <value type="string" value="chromium"/>
+        <value type="string" value="reminders"/>
+        <value type="string" value="zim"/>
+        <value type="string" value="pidgin"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="orage"/>
+        <value type="string" value="qbat"/>
+        <value type="string" value="org.remmina.remmina"/>
+        <value type="string" value="skypeforlinux"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="evolution-alarm-notify"/>
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="time tracker"/>
+      </property>
+      <property name="names-ordered" type="array">
+        <value type="string" value="drop-down terminal"/>
+        <value type="string" value="psi+"/>
+        <value type="string" value="zeal"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="mattermost-desktop"/>
+        <value type="string" value="bluetooth enabled"/>
+        <value type="string" value="amarok"/>
+        <value type="string" value="skypeforlinux"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="cisco anyconnect secure mobility client"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="kapow punch clock"/>
+        <value type="string" value="gajim"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="minetime"/>
+        <value type="string" value="org.remmina.remmina"/>
+        <value type="string" value="reminders"/>
+        <value type="string" value="zim"/>
+        <value type="string" value="chromium"/>
+        <value type="string" value="evolution-alarm-notify"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pidgin"/>
+        <value type="string" value="xfce4-power-manager"/>
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="actions"/>
+    <property name="plugin-15" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="grouping" type="uint" value="1"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="true"/>
+    </property>
+    <property name="plugin-18" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="amarok;chrome.instance10705;chrome.instance184469;chrome.instance42851;chrome.instance4950;chrome.instance83406;chromium.instance1071136;chromium.instance1093929;chromium.instance12164;chromium.instance121991;chromium.instance131114;chromium.instance14075;chromium.instance2085;chromium.instance2152;chromium.instance2322;chromium.instance2344;chromium.instance2346;chromium.instance2395;chromium.instance2399;chromium.instance2447;chromium.instance2489;chromium.instance2735;chromium.instance2749;chromium.instance2763;chromium.instance2837;chromium.instance28961;chromium.instance2897;chromium.instance2899;chromium.instance2904;chromium.instance2933;chromium.instance2935;chromium.instance2993;chromium.instance3036;chromium.instance3053;chromium.instance3159;chromium.instance3394;chromium.instance3790;chromium.instance455066;chromium.instance4929;chromium.instance4986;chromium.instance63220;chromium.instance8112;chromium.instance845409;chromium.instance8819;chromium.instance89441;chromium.instance9446;rhythmbox;vlc;vlc.instance16685"/>
+    </property>
+    <property name="plugin-10" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator"/>
+    <property name="plugin-2" type="string" value="xkb">
+      <property name="display-type" type="uint" value="2"/>
+      <property name="display-name" type="uint" value="0"/>
+      <property name="caps-lock-indicator" type="bool" value="true"/>
+      <property name="group-policy" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="xfce4-clipman-plugin"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-6" type="string" value="cpufreq"/>
+    <property name="plugin-8" type="string" value="separator"/>
+  </property>
+</channel>

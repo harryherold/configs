@@ -1,0 +1,37 @@
+[G0]
+timername=BlackTea
+time=180
+timercommand=notify-send "Tea ready"
+timerinfo=3m 0s
+is_countdown=true
+
+[G1]
+timername=FruitTea
+time=420
+timercommand=
+timerinfo=7m 0s
+is_countdown=true
+
+[G2]
+timername=Magentee
+time=600
+timercommand=
+timerinfo=10m 0s
+is_countdown=true
+
+[G3]
+timername=K.Tee
+time=300
+timercommand=
+timerinfo=5m 0s
+is_countdown=true
+
+[others]
+nowin_if_alarm=false
+selecting_starts=false
+use_global_command=true
+global_command=mplayer /usr/share/filezilla/resources/finished.wav
+repeat_alarm=false
+repetitions=1
+repeat_interval=10
+
