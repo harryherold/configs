@@ -1,0 +1,18 @@
+scorep-dir()
+{
+    dir="$PWD/$1"
+    export SCOREP_EXPERIMENT_DIRECTORY=$dir
+    echo "Set the experiment directory:"
+    echo "export SCOREP_EXPERIMENT_DIRECTORY=$dir"
+}
+
+scorep-filter()
+{
+    filter="$PWD/$1"
+    echo "SCOREP_REGION_NAMES_BEGIN EXCLUDE" > $filter
+    echo "${@:2}" | tr ' ' '\n' >> $filter
+    echo "SCOREP_REGION_NAMES_END" >> $filter
+    export SCOREP_FILTERING_FILE=$filter
+    echo "Set the filter file:"
+    echo "export SCOREP_FILTERING_FILE=$filter"
+}
