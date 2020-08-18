@@ -1,3 +1,10 @@
+find_all_filters()
+{
+    all_files=$(for f in "$PWD"/*; do if [ -f $f ]; then echo $f; fi; done)
+    all_filters=$(echo "$all_files" | xargs grep -l SCOREP_REGION_NAMES_BEGIN)
+    echo $all_filters | tr ' ' '\n'
+}
+
 scorep-dir()
 {
     dir="$PWD/$1"
@@ -9,10 +16,30 @@ scorep-dir()
 scorep-filter()
 {
     filter="$PWD/$1"
-    echo "SCOREP_REGION_NAMES_BEGIN EXCLUDE" > $filter
-    echo "${@:2}" | tr ' ' '\n' >> $filter
-    echo "SCOREP_REGION_NAMES_END" >> $filter
+    if [ "$#" -gt 1 ];
+    then
+        echo "SCOREP_REGION_NAMES_BEGIN EXCLUDE" > $filter
+        echo "${@:2}" | tr ' ' '\n' >> $filter
+        echo "SCOREP_REGION_NAMES_END" >> $filter
+    elif [ "$#" -lt 1 ];
+    then
+        filters=$( find_all_filters )
+        count=$(echo "$filters" | wc -l)
+        if [ "$count" -gt 1 ]; 
+        then
+            echo "Found multiple filters:"
+            echo "$filters"
+            echo "Select one and provide it!"
+            exit 0
+        elif [ "$count" -eq 1 ];
+        then
+            filter=$(realpath "$filters")
+        else
+            echo "No filter file found in the cwd."
+            exit 1
+        fi
+    fi
     export SCOREP_FILTERING_FILE=$filter
-    echo "Set the filter file:"
+    echo "Set the filter file via:"
     echo "export SCOREP_FILTERING_FILE=$filter"
 }

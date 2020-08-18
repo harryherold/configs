@@ -1,0 +1,6 @@
+
+init_modenv()
+{
+    [ -n "$SLURM_JOB_PARTITION" ] && [ "$SLURM_JOB_PARTITION" = "ml" ] && module load modenv/ml
+}
+
