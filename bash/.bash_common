@@ -1,0 +1,5 @@
+cwd_find()
+{
+    find . -iname "*$1*"
+}
+

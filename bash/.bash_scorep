@@ -16,3 +16,4 @@ scorep-filter()
     echo "Set the filter file:"
     echo "export SCOREP_FILTERING_FILE=$filter"
 }
+
