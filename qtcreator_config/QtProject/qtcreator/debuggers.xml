@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorDebuggers>
+<!-- Written by QtCreator 6.0.2, 2022-02-03T16:12:25. -->
+<qtcreator>
+ <data>
+  <variable>DebuggerItem.0</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/bin/gdb</value>
+   <value type="QString" key="DetectionSource"></value>
+   <value type="QString" key="DisplayName">System GDB at /usr/bin/gdb</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{e56d2798-4334-48cd-931c-9d7d66c37ce7}</value>
+   <value type="QDateTime" key="LastModified">2021-12-08T00:49:12.000</value>
+   <value type="QString" key="Version">9.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.1</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/bin/gdb</value>
+   <value type="QString" key="DetectionSource"></value>
+   <value type="QString" key="DisplayName">System GDB at /bin/gdb</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{7629b39c-14a5-4e11-91ce-fed6f41f2eee}</value>
+   <value type="QDateTime" key="LastModified">2021-12-08T00:49:12.000</value>
+   <value type="QString" key="Version">9.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.2</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">false</value>
+   <value type="QString" key="Binary">/usr/bin/gdb-multiarch</value>
+   <value type="QString" key="DetectionSource"></value>
+   <value type="QString" key="DisplayName">GDB MultiArch</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{ad61a9c2-874d-48af-821d-c6201c23e7d5}</value>
+   <value type="QDateTime" key="LastModified"></value>
+   <value type="QString" key="Version">9.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.3</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">arm-linux-generic-elf-32bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">false</value>
+   <value type="QString" key="Binary">/home/cherold/workspace/yocto-pi-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gdb</value>
+   <value type="QString" key="DetectionSource"></value>
+   <value type="QString" key="DisplayName">Poky RPI GDB</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{7f14d7e9-9864-494e-a4c3-482884e48ac9}</value>
+   <value type="QDateTime" key="LastModified"></value>
+   <value type="QString" key="Version">10.2.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.Count</variable>
+  <value type="int">4</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>

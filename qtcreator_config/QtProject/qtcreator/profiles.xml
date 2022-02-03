@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorProfiles>
+<!-- Written by QtCreator 6.0.2, 2022-02-03T16:12:25. -->
+<qtcreator>
+ <data>
+  <variable>Kit.IrrelevantAspects</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>Profile.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="PE.Profile.AutoDetected">false</value>
+   <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
+   <valuemap type="QVariantMap" key="PE.Profile.Data">
+    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
+     <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
+     <value type="QString">CMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}</value>
+     <value type="QString">CMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}</value>
+     <value type="QString">CMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    </valuelist>
+    <valuemap type="QVariantMap" key="CMake.GeneratorKitInformation">
+     <value type="QString" key="ExtraGenerator"></value>
+     <value type="QString" key="Generator">Ninja</value>
+     <value type="QString" key="Platform"></value>
+     <value type="QString" key="Toolset"></value>
+    </valuemap>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">qt.tools.cmake</value>
+    <value type="QString" key="Debugger.Information">{ad61a9c2-874d-48af-821d-c6201c23e7d5}</value>
+    <value type="QString" key="PE.Profile.BuildDevice">Desktop Device</value>
+    <value type="QString" key="PE.Profile.Device">{5e898011-fc81-471c-a846-7db82736a20e}</value>
+    <value type="QString" key="PE.Profile.DeviceType">GenericLinuxOsType</value>
+    <value type="QString" key="PE.Profile.SysRoot">/home/cherold/odroid-n2/sysroot</value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChainsV3">
+     <value type="QByteArray" key="C">{eba4097b-050d-4ced-be55-80afde898074}</value>
+     <value type="QByteArray" key="Cxx">{f8ab29eb-cdcc-46a7-b2a2-565582cfa75c}</value>
+    </valuemap>
+    <value type="int" key="QtSupport.QtInformation">2</value>
+   </valuemap>
+   <value type="QString" key="PE.Profile.DeviceTypeForIcon"></value>
+   <value type="QString" key="PE.Profile.Icon"></value>
+   <value type="QString" key="PE.Profile.Id">{d57bb02e-a53e-474e-8545-9c1fe2b2a23f}</value>
+   <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>
+   <value type="QString" key="PE.Profile.Name">Odroid N2</value>
+   <value type="bool" key="PE.Profile.SDK">false</value>
+   <valuelist type="QVariantList" key="PE.Profile.StickyInfo"/>
+  </valuemap>
+ </data>
+ <data>
+  <variable>Profile.1</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="PE.Profile.AutoDetected">false</value>
+   <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
+   <valuemap type="QVariantMap" key="PE.Profile.Data">
+    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
+     <value type="QString">CMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}</value>
+     <value type="QString">CMAKE_TOOLCHAIN_FILE:STRING=/home/cherold/cmd/PI.cmake</value>
+     <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
+    </valuelist>
+    <valuemap type="QVariantMap" key="CMake.GeneratorKitInformation">
+     <value type="QString" key="ExtraGenerator"></value>
+     <value type="QString" key="Generator">Unix Makefiles</value>
+     <value type="QString" key="Platform"></value>
+     <value type="QString" key="Toolset"></value>
+    </valuemap>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">qt.tools.cmake</value>
+    <value type="QString" key="Debugger.Information">{ad61a9c2-874d-48af-821d-c6201c23e7d5}</value>
+    <value type="QString" key="PE.Profile.BuildDevice">Desktop Device</value>
+    <value type="QString" key="PE.Profile.Device">{d32d5e24-a7d7-4270-8123-9fd80281809c}</value>
+    <value type="QString" key="PE.Profile.DeviceType">GenericLinuxOsType</value>
+    <value type="QString" key="PE.Profile.SysRoot">/home/cherold/rpi-qt/sysroot</value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChainsV3">
+     <value type="QByteArray" key="C">{b31368e6-79b2-4a08-893a-d6b8d5dd5152}</value>
+     <value type="QByteArray" key="Cxx">{abd41261-acc9-40d3-84c0-c86fd9b71469}</value>
+    </valuemap>
+    <value type="int" key="QtSupport.QtInformation">4</value>
+   </valuemap>
+   <value type="QString" key="PE.Profile.DeviceTypeForIcon"></value>
+   <value type="QString" key="PE.Profile.Icon"></value>
+   <value type="QString" key="PE.Profile.Id">{f80b7059-9743-4704-a986-29efde9a3983}</value>
+   <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>
+   <value type="QString" key="PE.Profile.Name">Raspiberry PI</value>
+   <value type="bool" key="PE.Profile.SDK">false</value>
+   <valuelist type="QVariantList" key="PE.Profile.StickyInfo"/>
+  </valuemap>
+ </data>
+ <data>
+  <variable>Profile.2</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="PE.Profile.AutoDetected">false</value>
+   <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
+   <valuemap type="QVariantMap" key="PE.Profile.Data">
+    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
+     <value type="QString">CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/cherold/workspace/yocto-pi-sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake/OEToolchainConfig.cmake</value>
+    </valuelist>
+    <valuemap type="QVariantMap" key="CMake.GeneratorKitInformation">
+     <value type="QString" key="ExtraGenerator"></value>
+     <value type="QString" key="Generator">Unix Makefiles</value>
+     <value type="QString" key="Platform"></value>
+     <value type="QString" key="Toolset"></value>
+    </valuemap>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{97f53764-4f1c-42e6-8af6-2b64e084a033}</value>
+    <value type="QString" key="Debugger.Information">{ad61a9c2-874d-48af-821d-c6201c23e7d5}</value>
+    <value type="QString" key="PE.Profile.BuildDevice">Desktop Device</value>
+    <value type="QString" key="PE.Profile.Device">{d32d5e24-a7d7-4270-8123-9fd80281809c}</value>
+    <value type="QString" key="PE.Profile.DeviceType">GenericLinuxOsType</value>
+    <value type="QString" key="PE.Profile.SysRoot">/home/cherold/workspace/yocto-pi-sdk/sysroots/arm1176jzfshf-vfp-poky-linux-gnueabi</value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChainsV3">
+     <value type="QByteArray" key="C">{d5c39385-7759-4e6b-b18d-8fc52d22b3e7}</value>
+     <value type="QByteArray" key="Cxx">{bfbc2117-13ff-4dfa-8446-b80623785e6f}</value>
+    </valuemap>
+    <value type="QString" key="QtPM4.mkSpecInformation"></value>
+    <value type="int" key="QtSupport.QtInformation">-1</value>
+   </valuemap>
+   <value type="QString" key="PE.Profile.DeviceTypeForIcon"></value>
+   <value type="QString" key="PE.Profile.Icon"></value>
+   <value type="QString" key="PE.Profile.Id">{c0f217a3-40a8-4ef1-88bf-ea71ee25bd60}</value>
+   <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>
+   <value type="QString" key="PE.Profile.Name">Poky RPI-Non-Qt</value>
+   <value type="bool" key="PE.Profile.SDK">false</value>
+   <valuelist type="QVariantList" key="PE.Profile.StickyInfo"/>
+  </valuemap>
+ </data>
+ <data>
+  <variable>Profile.3</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="PE.Profile.AutoDetected">false</value>
+   <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
+   <valuemap type="QVariantMap" key="PE.Profile.Data">
+    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
+     <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
+     <value type="QString">CMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}</value>
+     <value type="QString">CMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}</value>
+     <value type="QString">CMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    </valuelist>
+    <valuemap type="QVariantMap" key="CMake.GeneratorKitInformation">
+     <value type="QString" key="ExtraGenerator"></value>
+     <value type="QString" key="Generator">Unix Makefiles</value>
+     <value type="QString" key="Platform"></value>
+     <value type="QString" key="Toolset"></value>
+    </valuemap>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{97f53764-4f1c-42e6-8af6-2b64e084a033}</value>
+    <value type="QString" key="Debugger.Information">{e56d2798-4334-48cd-931c-9d7d66c37ce7}</value>
+    <value type="QString" key="PE.Profile.Device">Desktop Device</value>
+    <value type="QByteArray" key="PE.Profile.DeviceType">Desktop</value>
+    <value type="QString" key="PE.Profile.SysRoot"></value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChainsV3">
+     <value type="QByteArray" key="C">{d5c39385-7759-4e6b-b18d-8fc52d22b3e7}</value>
+     <value type="QByteArray" key="Cxx">{bfbc2117-13ff-4dfa-8446-b80623785e6f}</value>
+    </valuemap>
+    <value type="int" key="QtSupport.QtInformation">-1</value>
+   </valuemap>
+   <value type="QString" key="PE.Profile.DeviceTypeForIcon"></value>
+   <value type="QString" key="PE.Profile.Icon"></value>
+   <value type="QString" key="PE.Profile.Id">{55f026fc-6571-4424-85d6-60bc8ccd7f55}</value>
+   <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>
+   <value type="QString" key="PE.Profile.Name">Imported Kit</value>
+   <value type="bool" key="PE.Profile.SDK">false</value>
+   <valuelist type="QVariantList" key="PE.Profile.StickyInfo"/>
+  </valuemap>
+ </data>
+ <data>
+  <variable>Profile.4</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="PE.Profile.AutoDetected">true</value>
+   <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
+   <valuemap type="QVariantMap" key="PE.Profile.Data">
+    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
+     <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
+     <value type="QString">CMAKE_PREFIX_PATH:STRING=%{Qt:QT_INSTALL_PREFIX}</value>
+     <value type="QString">CMAKE_C_COMPILER:STRING=%{Compiler:Executable:C}</value>
+     <value type="QString">CMAKE_CXX_COMPILER:STRING=%{Compiler:Executable:Cxx}</value>
+    </valuelist>
+    <valuemap type="QVariantMap" key="CMake.GeneratorKitInformation">
+     <value type="QString" key="ExtraGenerator"></value>
+     <value type="QString" key="Generator">Ninja</value>
+     <value type="QString" key="Platform"></value>
+     <value type="QString" key="Toolset"></value>
+    </valuemap>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">qt.tools.cmake</value>
+    <value type="QString" key="Debugger.Information">{e56d2798-4334-48cd-931c-9d7d66c37ce7}</value>
+    <value type="QString" key="PE.Profile.Device">Desktop Device</value>
+    <value type="QString" key="PE.Profile.DeviceType">Desktop</value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChainsV3">
+     <value type="QByteArray" key="C">{3dc927c3-4bbe-42b4-961f-9acf602817be}</value>
+     <value type="QByteArray" key="Cxx">{2992527b-ab8c-4ca5-ab37-eb38a20a692b}</value>
+    </valuemap>
+    <value type="QString" key="QtSupport.QtInformation">SDK.qt.qt5.5152.gcc_64</value>
+   </valuemap>
+   <value type="QString" key="PE.Profile.DeviceTypeForIcon"></value>
+   <value type="QString" key="PE.Profile.Icon"></value>
+   <value type="QString" key="PE.Profile.Id">qt.qt5.5152.gcc_64_kit</value>
+   <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>
+   <value type="QString" key="PE.Profile.Name">Desktop Qt %{Qt:Version} GCC 64bit</value>
+   <value type="bool" key="PE.Profile.SDK">true</value>
+   <valuelist type="QVariantList" key="PE.Profile.StickyInfo">
+    <value type="QString">PE.Profile.DeviceType</value>
+    <value type="QString">QtSupport.QtInformation</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>Profile.Count</variable>
+  <value type="int">5</value>
+ </data>
+ <data>
+  <variable>Profile.Default</variable>
+  <value type="QString">qt.qt5.5152.gcc_64_kit</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>

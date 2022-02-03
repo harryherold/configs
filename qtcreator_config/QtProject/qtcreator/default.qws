@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 6.0.2, 2022-02-03T16:13:03. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNQAAAAAAAAAAAAAACQAAAAVlbXB0eQAAAAA=</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/CMakeLists.txt</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/CMakeLists.txt</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList">
+   <valuemap type="QVariantMap">
+    <value type="QString" key="filename">/home/cherold/flupp/main.cpp</value>
+    <value type="int" key="linenumber">8</value>
+   </valuemap>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-DebuggerSeparateWidgetGeometry</variable>
+  <value type="QRect">100x30+0+0</value>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-IndividualFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/src</value>
+    <value type="QString">officeButler</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/src</value>
+    <value type="QString">src</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/thirdparty/tomlplusplus</value>
+    <value type="QString">tomlplusplus</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler</value>
+    <value type="QString">officeButler [master]</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/src</value>
+    <value type="QString">Source Files</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/src/common</value>
+    <value type="QString">common</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler</value>
+    <value type="QString">CMake Modules</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/cherold/workspace/2022-qt-embedded.office-butler/thirdparty</value>
+    <value type="QString">thirdparty</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DebuggerSeparateWidgetGeometry</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">IndividualFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>
